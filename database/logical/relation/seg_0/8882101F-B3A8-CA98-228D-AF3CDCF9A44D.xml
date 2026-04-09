@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA_LIVRO" directorySegmentName="seg_0" id="8882101F-B3A8-CA98-228D-AF3CDCF9A44D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-09 12:34:11 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="F09F9991-E807-84BC-11A1-ED71718FD8CE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2A4457DE-4F81-B005-B17E-CE9AB39C976A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54DA2012-AB3D-C7A9-B32C-CD27A8496535</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
