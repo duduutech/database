@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49D7B2ED-B3EB-086D-D97E-9E7410245BAB" name="OPERADAROA_TRANSPORTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:19:34 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_operadora" id="3A198A46-7780-59BC-8B39-35AC755691FE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:42 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="2EEC5424-03B9-753B-05CD-10D68A5769A8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:45 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="24000CFC-6B3A-F9D8-75AE-00C310EFED17">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:53 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="73332062-C1A2-52B6-A6BA-A7B4528642B2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:57 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_modal" id="A4725E7E-1D7B-9E15-00AE-B19DDEC37A75">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:31:03 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mn_operadora" id="469ADBE9-D123-0FAB-F780-FE1974ECE1D1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:51:26 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="397DEA05-3A52-2D07-A7FC-18DF06D2EDA9" name="OPERADAROA_TRANSPORTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:31:10 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A198A46-7780-59BC-8B39-35AC755691FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

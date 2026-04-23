@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F52E46D-6A25-C576-BF1F-753F8DFD73D0" name="VOUCHER">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:28:18 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_voucher" id="9F4EA28F-1711-27D3-B9E8-77CEF210FE26">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:29:39 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qr_code" id="3FB3DBDE-3819-2CCB-236B-D46E508870B0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:29:44 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl" id="2D14C70D-F017-73E0-D35B-AC9F6A414BD8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:29:49 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_expiracao" id="F25B5321-5B76-FC53-02F7-C341DD979511">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:29:51 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="297B8C16-6EC6-074C-6D23-150F4E7A5D9B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:02 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_operadora" id="36C954A7-6A7B-53F7-E6B3-CC79B80364D2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:35:19 UTC</createdTime>
+<generatorID>464D33A5-1C82-46CE-0970-9453624DF4BC</generatorID>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<referedAttribute>3A198A46-7780-59BC-8B39-35AC755691FE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voucher1" id="3296B449-36DF-4715-9B11-A79239754AB9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 12:04:01 UTC</createdTime>
+<generatorID>B7A6B380-4F83-D19E-7A06-D217595B0F10</generatorID>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<referedAttribute>9F4EA28F-1711-27D3-B9E8-77CEF210FE26</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2D016A3-A7CE-2127-901F-FC3D7A8900A1" name="VOUCHER PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:33:01 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F4EA28F-1711-27D3-B9E8-77CEF210FE26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

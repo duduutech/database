@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B21E8DEA-E3D6-B082-6358-66D030B1D8E5" name="UTILIZACAO_CREDITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:37:05 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carteira" id="47D1727F-6407-FF4D-3806-40D7300DD30F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:37:32 UTC</createdTime>
+<generatorID>7E1EDF9A-86C6-6FC5-91C5-B92140C0DE41</generatorID>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<referedAttribute>CD48604E-D562-E47D-63A7-A6E5F94BC564</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_operadora" id="941246B5-1C16-1909-C593-4132EF890E6E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:38:20 UTC</createdTime>
+<generatorID>2A228B6B-0A72-1C0E-9E7C-E4C0F0D123D1</generatorID>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<referedAttribute>3A198A46-7780-59BC-8B39-35AC755691FE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="DBD12819-BAAE-A7B9-EF52-890B72DD27F5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:38:50 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vf_localizado" id="917D505C-7923-5E35-216F-A049ACFE1ED3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:38:57 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_utilizacao" id="57A69ACD-7CC4-921A-9B29-4FC70252B298">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:39:06 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7645503-F334-368D-66A6-15628AD304F8" name="UTILIZACAO_CREDITO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:39:18 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57A69ACD-7CC4-921A-9B29-4FC70252B298</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

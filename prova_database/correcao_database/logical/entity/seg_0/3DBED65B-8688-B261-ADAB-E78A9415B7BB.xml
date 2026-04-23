@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DBED65B-8688-B261-ADAB-E78A9415B7BB" name="CONVERSAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:28:23 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conversao" id="BC490BF9-51BC-DA09-B0EA-2B6A7B7AD734">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:11 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_ponto" id="B59EBB2C-7237-7474-F403-59BE5E41874D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:15 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_convertido" id="5F095F6C-57EF-96A1-7A44-7FC76F0B3709">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:22 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_conversao" id="28FF4787-5B26-F2F7-0093-32B0101C9CFF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:30:29 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="4CCB205B-9BCB-52E9-5811-A628E23E205D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:35:00 UTC</createdTime>
+<generatorID>42A6DDBE-320E-F3C8-1A9A-EC36477CAAE2</generatorID>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<referedAttribute>90788717-2B6B-FDBB-07D9-36885BD01013</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conversao1" id="E7922A39-BFF9-D6DC-17CD-F7A687920A00">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 12:04:01 UTC</createdTime>
+<generatorID>B7A6B380-4F83-D19E-7A06-D217595B0F10</generatorID>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<referedAttribute>BC490BF9-51BC-DA09-B0EA-2B6A7B7AD734</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FB15BC5-FFCE-C62A-1ACE-C7D878B8528A" name="CONVERSAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-23 11:33:16 UTC</createdTime>
+<ownerDesignName>correcao_database</ownerDesignName>
+<engineerTo>
+<item key="0C76AB7A-7652-375F-B865-78FCC5CED378" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC490BF9-51BC-DA09-B0EA-2B6A7B7AD734</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
